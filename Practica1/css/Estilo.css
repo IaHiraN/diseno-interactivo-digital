@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbf4e4;
+    color: #1f1d1b;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+h1, h2, h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1f1d1b;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+/* Sección Encabezado */
+
+#encabezado {
+    background-color: #fbf4e4;
+    border-bottom: 2px solid #1f1d1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#logotipo {
+    margin: 0;
+    width: 360;
+}
+
+#logotipo img {
+    display: block;
+    height: 30px;
+}
+
+#menu {
+    width: 600px;
+    text-align: right;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline;
+    margin-left: 30px;
+}
+
+/* Pseudoclase */
+#menu a:link { /* link estado del enlace */
+    color: #1f1d1b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#menu a:hover{ /* hover estado del enlace cuando posicionamos cursor encima */
+    color: #415062;
+    text-decoration: underline;
+}
+
+#menu a:visited{ /* visited estado del enlace cuando posicionamos cursor encima */
+    color: #1f1d1b;
+}
+
+/* Sección Portada */
+#portada {
+    background-color: #fff0cd;
+    padding: 20px 0;
+}
+
+#imgportada {
+    margin:0 auto;
+    height: 400px;
+    width: 960px;
+}
+
+#imgportada img {
+    border: 2px solid #1f1d1b;
+    border-radius: 20px;
+}
+
+/* Sección de mi */
+#acercademi {
+    border-top: 2px solid #1f1d1b;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#textoacercademi {
+    text-align: center;
+    width: 100%;
+}
+
+/* Acerca de mi_Perfil */
+#perfil {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#imgperfil {
+    width: 280px;
+    height: 300px;
+}
+
+#imgperfil img {
+    border: 2px solid #1f1d1b;
+    border-radius: 20px;
+}
+
+/* Acerca de mi_Presentación */
+#presentacion {
+    text-align: center;
+    width: 600px;
+}
+
+/* Acerca de mi_Habilidades y conocimientos */
+#habilidadesyconocimientos {
+    display: flex;
+    width: 600px;
+}
+
+.habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.habilidades {
+    width: 200px;
+}
+
+.habilidades li{
+    width: 170px;
+    margin: 0 auto 10px auto;
+    padding: 2px 0;
+    border: 2px solid #1f1d1b;
+    border-radius: 20px;
+    box-shadow: 2px 2px 0 #1f1d1b;
+    background-color: #fbf4e4;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+
+.trabajos img {
+    border: 2px solid #1f1d1b;
+}
+
+/* Acerca de mi_Descarga */
+#descarga {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#descarga a:link, #descarga a:visited { /* link y visited estado del enlace */
+    color: #415062;
+    font-weight: 600;
+}
+
+#descarga a:hover { /* hover estado del enlace cuando posicionamos cursor encima */
+    color: #1f1d1b;
+}
+
+/* Sección Portafolio */
+#portafolio {
+    background-color: #fff0cd;
+    text-align: center;
+    border-top: 2px solid #1f1d1b;
+}
+
+/* Portafolio_Proyectos */
+#trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.trabajos {
+    margin: 0 15px 40px 15px;
+}
+
+.trabajos figure {
+    margin: 0 0 10px 0;
+}
+
+.trabajos img {
+    border: 2px solid #1f1d1b;
+    border-radius: 20px;
+}
+
+.boton  {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #e3b341;
+    border: 2px solid #1f1d1b;
+    border-radius: 20px;
+    box-shadow:  3px 3px 0 #1f1d1b;
+    font-family: "Syne", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.boton:link { /* link estado del enlace */
+    color: #1f1d1b;
+    text-decoration: none;
+}
+
+.boton:hover { /* hover estado del enlace cuando posicionamos cursor encima */
+    background-color: #fbf4e4;
+}
+
+.boton:visited { /* visited estado del enlace cuando posicionamos cursor encima */
+    color: #1f1d1b;
+    text-decoration: none;
+}
+
+/* Sección Contacto */
+#contacto {
+    text-align: center;
+    background-color: #1f1d1b;
+    color: #fbf4e4;
+    padding: 20px 0;
+}
+
+#contacto h2 {
+    color: #fbf4e4;
+}
+
+#redes {
+    list-style: none;
+    padding: 0;
+}
+
+#redes li{
+    display: inline;
+    margin: 0 10px;
+}
+
+#redes a:link {  /* link estado del enlace */
+    color: #fbf4e4;
+    text-decoration: none;
+    font-size: 28px;
+    
+}
+
+#redes a:visited{ /* hover estado del enlace cuando posicionamos cursor encima */
+    color: #fbf4e4;
+}
+
+#redes a:hover {
+    color: #e3b341;
+}
+
+#copyright {
+    font-size: 14px;
+}
